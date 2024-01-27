@@ -7,7 +7,7 @@ const allProducts = () => {
   return (
     <div>
       {" "}
-      <div className="grid grid-cols-4 justify-evenly items-center py-10 gap-x-12  ">
+      <div className="grid grid-cols-4 justify-evenly items-center py-10 gap-x-12 gap-y-4 ">
         {products.map((item) => (
           <ProductCard
             id={item.id}

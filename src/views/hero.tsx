@@ -7,7 +7,6 @@ import featured2 from "../../public/Featured2.webp";
 import featured3 from "../../public/Featured3.webp";
 import featured4 from "../../public/Featured4.webp";
 import { ShoppingCart } from "lucide-react";
-import MainHero from "./mainHero";
 
 const Hero = () => {
   return (
@@ -36,9 +35,6 @@ const Hero = () => {
           <Image src={featured4} alt="Featured Images4" />
         </div>
       </div>
-
-      
-    
 
       {/* Right Side div */}
       <div className=" -mx-8 bg-emerald-100 rounded-full  ">

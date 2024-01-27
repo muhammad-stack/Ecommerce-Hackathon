@@ -28,7 +28,7 @@ export default function Page({ params }: { params: { id: string } }) {
                 alt={item.name}
                 height={900}
                 width={699}
-                className="" 
+                className=""
               />
             </div>
 
@@ -50,13 +50,14 @@ export default function Page({ params }: { params: { id: string } }) {
               </div>
               {/* Quantity */}
               <div className="flex gap-x-3 mt-6 items-center">
-                <h3 className="text-[14px] font-semibold ">Quantity:</h3>
+                <h3 className="text-[14px] font-semibold text-md">Quantity:</h3>
                 <Quantity />
               </div>
-              <div className="flex center gap-x-3 -ml-14">
-
-              <AddtoCart/>
-              <h2 className="text-2xl font-bold ">${item.price.toFixed(2)}</h2>
+              <div className="flex center gap-x-3 -ml-10">
+                <AddtoCart />
+                <h2 className="text-2xl font-bold ">
+                  ${item.price.toFixed(2)}
+                </h2>
               </div>
             </div>
           </div>
