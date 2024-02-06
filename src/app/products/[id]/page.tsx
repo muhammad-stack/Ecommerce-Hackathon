@@ -41,7 +41,7 @@ export default function Page({ params }: { params: { id: string } }) {
               <h3 className="text-[25px] font-semibold py-6">Select Size</h3>
               <div className="flex gap-x-6">
                 {sizes.map((variants) => (
-                  <div className="w-10 h-10 rounded-full hover:shadow-xl duration-200 border-lime-50 center ">
+                  <div key={item.id} className="w-10 h-10 rounded-full hover:shadow-xl duration-200 border-lime-50 center ">
                     <span className="text-[21px] font-bold p-4  text-gray-600 pl-2  ">
                       {variants}
                     </span>

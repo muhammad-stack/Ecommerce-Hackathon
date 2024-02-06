@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Search, ShoppingCart } from "lucide-react";
 import Link from "next/link";
 import { UseSelector, useSelector } from "react-redux";
-import { RootState } from "@reduxjs/toolkit/query";
+import { RootState } from "@/store/store";
 
 const Header = () => {
   const cartValue = useSelector((state: RootState) => state.cart.totalQuantity);
