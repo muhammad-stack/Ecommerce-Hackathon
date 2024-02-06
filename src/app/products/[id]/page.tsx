@@ -63,15 +63,6 @@ export default function Page({ params }: { params: { id: string } }) {
           </div>
         ))}
       </div>
-      <div className="mt-32 ml-24">
-        <h1>Product Information </h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
-          laborum, harum hic repellat magni temporibus in officiis dolores
-          nostrum sequi dolore sed sit cupiditate et vel similique aliquid? Ea,
-          natus.
-        </p>
-      </div>
     </section>
   );
 }
